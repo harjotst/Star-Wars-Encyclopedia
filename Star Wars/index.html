@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <!--Axios-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="category def rotated" id="0">
+            <h1 class="name def">Characters</h1>
+        </div>
+        <div class="category def rotated" id="1">
+            <h1 class="name def">Planets</h1>
+        </div>
+        <div class="category def rotated" id="2">
+            <h1 class="name def">Movies</h1>
+        </div>
+        <div class="category def rotated" id="3">
+            <h1 class="name def">Species</h1>
+        </div>
+        <div class="category def rotated" id="4">
+            <h1 class="name def">Vehicles</h1>
+        </div>
+        <div class="category def rotated" id="5">
+            <h1 class="name def">Starships</h1>
+        </div>
+    </div>
+    <div class="results"></div>
+    <div class="navigate">
+        <button class="move" id="previous">Previous Page</button>
+        <div class="pages"></div>
+        <button class="move" id="next">Next Page</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
